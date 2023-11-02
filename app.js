@@ -4,20 +4,20 @@ function registerform() {
     var email=document.getElementById('email');
     var createPassword=document.getElementById('cre-password');
     var confirmPassword=document.getElementById('con-password');
-    if (name.value === " ") {
+    if (name.value === " ".trim()) {
         Swal.fire({
             icon: 'error',
             title: 'Name should not be empty',
             text: 'Something went wrong!',
           })
     
-    } else if(email.value===" ") {  
+    } else if(email.value===" ".trim()) {  
         Swal.fire({
             icon: 'error',
             title: 'email should not be empty',
             text: 'Something went wrong!',
           })
-    }else if(createPassword.value===" ") {  
+    }else if(createPassword.value===" ".trim()) {  
         Swal.fire({
             icon: 'error',
             title: 'Create password should not be empty',
