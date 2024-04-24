@@ -1,1 +1,1 @@
-loginandregisterform001.netlify.app
+https://loginandregisterform001.netlify.app/
