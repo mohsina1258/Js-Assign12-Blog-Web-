@@ -1,1 +1,1 @@
-https://01stopwatch.netlify.app/
+loginandregisterform001.netlify.app
